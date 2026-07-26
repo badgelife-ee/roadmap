@@ -54,6 +54,7 @@ etc.
 ## Sensores
 
 - ✅ altavoz/buzzer
+- ✅ comunicación IR
 - ❓ IMU / acelerómetro
 - ❓ sensor de luz
 - ❓ micrófono MEMS
