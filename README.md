@@ -32,6 +32,8 @@ Ejemplos:
 - Cthulhu
 etc.
 
+# Hadware + Software
+
 ## MCU - **ESP32-S3**
 
 - USB nativo
@@ -42,38 +44,40 @@ etc.
 - TinyUSB
 - LVGL
 
-- ❓Joypad + 2 botones
-# Pantalla - TFT Circular
-# Conectores
+- ❓Joypad + 2/3 botones
+- Pantalla - TFT Circular
+- Conectores:
+  - 1-2 SAO (1 arriba y 1 abajo)
+  - USB-C
+  - ❓GPIO extra para hacking
 
-- 1-2 SAO (1 arriba y 1 abajo)
-- USB-C
-- ❓GPIO extra para hacking
-# Sensores
+## Sensores
 
-- ✅ IMU
-- ✅ sensor de luz
-- ✅ buzzer
-- ❓micrófono MEMS
-- ❓sensor Hall
-- ❓acelerómetro
-- ❓temperatura
-- ❓humedad
+- ✅ altavoz/buzzer
+- ❓ IMU / acelerómetro
+- ❓ sensor de luz
+- ❓ micrófono MEMS
+- ❓ sensor Hall / proximidad
+- ❓ acelerómetro
+- ❓ ~~temperatura~~
+- ❓ ~~humedad~~
 
-# Alimentación
+## Alimentación
 
 - Batería LiPo.
 - Carga por USB-C.
 
-# Software
+## Software
 
 - SDK
 - Documentación
 - Ejemplos (Hello World...)
 
-## Equipo Hardware
+# Equipos:
+(puede haber menos equipos que hagan más cosas o gente que esté en varios)
 
-Responsables de:
+## Hardware
+
 - PCB - KiCad
 - Alimentación
 - USB
@@ -127,13 +131,16 @@ Responsables de:
 - Montaje
 - Tests
 - QA
+
 # Cronograma
 
 ## Fase 1
+
 - Concept art
-- Logo
-- Nombre
-- Forma
+- Logo de Badgelife EE
+- Nombre del Badge
+- Forma (begitxo)
+
 ## Fase 2
 
 - Electrónica
@@ -220,73 +227,55 @@ Desde la idea hasta el PCB.
 ## Otras actividades:
  
 ### CTF del badge
-
 Resolver retos usando únicamente el hardware del badge.
 
 ### Easter Egg Hunt
-
 Descubrir funciones ocultas.
 
 ### Badge Bingo
-
 Interactuar con otros asistentes para completar una tarjeta de objetivos.
 
 ### Speed Hacking
-
 Dispones de X horas para crear una mejora funcional o estética para el badge.
 
 ### Lightning Talks
-
 Presentaciones de cinco minutos donde cualquiera puede enseñar su firmware, su SAO o un truco que haya descubierto.
 
 ### Clínica del Badge
-
 Una mesa permanente con herramientas para reparar, actualizar o modificar badges y SAOs, atendida por voluntarios.
 
 ### Galería de SAOs
-
 Exposición abierta donde los participantes muestran sus diseños con una breve explicación técnica y artística.
 
 ### "Firmware Arena"
-
 Los autores presentan su creación en directo y el público la prueba y vota.
 
 ### "SAO Swap"
+Intercambio de SAOs entre asistentes para fomentar la colaboración y el coleccionismo.
 
- Intercambio de SAOs entre asistentes para fomentar la colaboración y el coleccionismo.
-
----
-
-## Concepto
+## Otras ideas:
 
 - Que el badge **"reconozca" a otros begitxos**. Cada badge podría emitir un identificador mediante BLE o ESP-NOW. 
 - Cuando dos asistentes se acercan, los ojos se miran, la pupila cambia de tamaño y ambos desbloquean una animación o un logro. 
 - Si un participante consigue "mirar a los ojos" a suficientes personas, puede desbloquear nuevos comportamientos, minijuegos o elementos cosméticos. 
 
----
-
 # Objetivos realistas para el primer año
 
 ## Hardware
 
--  ESP32-S3
--  Pantalla circular
--  4 botones
--  LEDs RGB
--  USB-C
--  Batería LiPo
--  1 puerto SAO
--  Firmware actualizable
+- Definir el hardware concreto del badge
+- Definir cuántos puertos SAO tendrá
+- Funcionalidades previstas para los SAO
 
 ## Software
 
--  Menú
--  Animaciones del ojo
--  Identificación del usuario
--  BLE o ESP-NOW básico
--  API documentada
--  Dos o tres minijuegos sencillos
--  Un huevo de Pascua
+- Identificación del usuario (y que también valga como entrada oficial?)
+- Menú
+- Animaciones del ojo
+- BLE o ESP-NOW básico
+- API documentada
+- Algún minijuegos sencillo (tipo snake)
+- Un huevo de Pascua
 
 ## Comunidad
 
