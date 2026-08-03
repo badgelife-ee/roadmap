@@ -287,3 +287,15 @@ Intercambio de SAOs entre asistentes para fomentar la colaboración y el colecci
 -  Concurso de firmware
 -  Concurso de SAOs
 -  SAOs creados por la comunidad
+
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
